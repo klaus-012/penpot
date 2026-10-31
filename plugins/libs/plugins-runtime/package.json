@@ -10,8 +10,8 @@
   "typings": "./index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "node init && vite build",
-    "build:watch": "node init && vite build --watch --mode development",
+    "build": "vite build",
+    "build:watch": "vite build --watch --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest"
